@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "Terminal-based port & process manager CLI",
   "main": "bin/portx.js",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "chalk": "^5.6.2",
+    "cli-table3": "^0.6.5",
+    "figlet": "^1.11.0",
+    "inquirer": "^13.4.1",
+    "ora": "^9.3.0",
+    "ps-list": "^9.0.0"
+  },
   "bin": {
     "portx": "./bin/portx.js"
   },
